@@ -3,7 +3,7 @@
 }
 
 .font-sm {
-//  font-size: 80%;
+  //  font-size: 80%;
 }
 
 .tetris {
@@ -22,7 +22,7 @@
     align-items: center;
 
     font-family: Arial, sans-serif;
-//    font-size: 14px;
+    //    font-size: 14px;
 
     span {
       margin-left: 2px;
@@ -30,7 +30,7 @@
     }
 
     > * {
-      margin: 0 .25rem;
+      margin: 0 0.25rem;
     }
   }
 
@@ -48,26 +48,24 @@
         flex-grow: 1;
         margin: 1px;
 
-        &.f, &.r {
+        &.f,
+        &.r {
           background-color: yellow;
         }
 
         &.v {
           background-color: red;
         }
-
       }
-
     }
-
   }
 
   .help {
     position: absolute;
     background-color: white;
     padding: 4px;
-//    left: calc(100% / 2);
-//    top: calc(100% / 2);
+    //    left: calc(100% / 2);
+    //    top: calc(100% / 2);
     left: 10%;
     top: 10%;
     width: 80%;
@@ -90,6 +88,5 @@
       padding: 8px 0;
       font-size: 90%;
     }
-
   }
 }

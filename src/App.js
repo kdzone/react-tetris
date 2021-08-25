@@ -2,10 +2,7 @@ import React from 'react';
 import Game from './tetris/Game';
 
 const App = () => {
-
-    return (
-        <Game/>
-    );
+  return <Game />;
 };
 
 export default App;
